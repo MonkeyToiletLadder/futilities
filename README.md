@@ -1,5 +1,7 @@
 # futilities
 
+MAKE SURE TO HAVE UPDATED VERSIONS OF futilities
+
 ## A file utility library
 
 This crate provides basic file utilities. Detects image files (PNG, JPEG, SVG, XCF ...) by reading file headers or file information.  Also detects ELF format (Linux executables). 
