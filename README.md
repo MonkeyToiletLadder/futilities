@@ -2,13 +2,13 @@
 
 ## A file utility library
 
-This crate provides basic file utilities. Currently only detects image files (PNG, JPEG, SVG, XCF ...) by reading file headers or file information. 
+This crate provides basic file utilities. Detects image files (PNG, JPEG, SVG, XCF ...) by reading file headers or file information.  Also detects ELF format (Linux executables). 
 
 ## Cargo.toml
 
 ```toml
 [dependencies]
-futilities = "0.1.1"
+futilities = "0.1.4"
 ```
 
 ## Usage
@@ -19,6 +19,7 @@ use futilities::*;
 
 fn main() {
 	// Use on Path PathBuf String and str
+	println!("{:?}", "cargo".is_elf());
 	println!("{:?}", Path::new("image.png").is_jpg());
 	println!("{:?}", String::new("image.bmp").is_bmp());
 	println!("{:?}", "image.svg".is_svg());
