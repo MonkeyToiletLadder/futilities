@@ -1,7 +1,5 @@
 # futilities
 
-MAKE SURE TO HAVE UPDATED VERSIONS OF futilities
-
 ## A file utility library
 
 This crate provides basic file utilities. Detects image files (PNG, JPEG, SVG, XCF ...) by reading file headers or file information.  Also detects ELF format (Linux executables). 
@@ -10,7 +8,7 @@ This crate provides basic file utilities. Detects image files (PNG, JPEG, SVG, X
 
 ```toml
 [dependencies]
-futilities = "0.1.4"
+futilities = "0.1.5"
 ```
 
 ## Usage
