@@ -1,5 +1,8 @@
 # futilities
 
+## How to reach me
+dylan_w2014@outlook.com or FalconFruitPunch on the official rust discord.
+
 ## A file utility library
 
 This crate provides basic file utilities. Detects image files (PNG, JPEG, SVG, XCF ...) by reading file headers or file information.  Also detects ELF format (Linux executables). 
