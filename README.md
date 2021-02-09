@@ -5,7 +5,7 @@ dylan_w2014@outlook.com or FalconFruitPunch on the official rust discord.
 
 ## A file utility library
 
-This crate provides basic file utilities. Detects image files (PNG, JPEG, SVG, XCF ...) by reading file headers or file information.  Also detects ELF format (Linux executables). Note not all linux executable files will pass is_elf for instance bash files.
+This crate provides basic file utilities. Detects image files (PNG, JPEG, SVG, XCF ...) by reading file headers or file information.  Also detects ELF format (Linux executables). Note not all linux executable files will pass is_elf for instance bash files.  Try using the mode from a files permissions to check if its an executable file in linux.
 
 ## Cargo.toml
 
